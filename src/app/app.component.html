@@ -1,0 +1,58 @@
+<h2>Appointments</h2>
+<div class="g">
+  <table>
+    <thead>
+    <tr class ="a">
+      <th class="a1">patiernt</th>
+      <th>status</th>
+      <th>appointments</th>
+      <th>phone</th>
+      <th>doctor</th>
+      <th>actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>{{user.name}}</td>
+      <td><button>{{user.status}}</button></td>
+      <td></td>
+      <td></td>
+      <td><img [src]="user.img"></td>
+      <td (click)="printname(user)">...</td>
+    </tr>
+    <tr class="c">
+      <td>Sandeep Hegde</td>
+      <td><button>Consult</button></td>
+      <td>06:15PM</td>
+      <td>+91 987654321</td>
+      <td>Dr.Ananth</td>
+      <td><img src=""></td>
+    </tr>
+    <tr class="d">
+      <td>John Doe</td>
+      <td><button>Consult</button></td>
+      <td>06:15PM</td>
+      <td>+91 987654321</td>
+      <td>Dr.Ananth</td>
+      <td><img src=""></td>
+    </tr>
+    <tr class="e">
+      <td>Vishwanath</td>
+      <td><button>Consult</button></td>
+      <td>06:15PM</td>
+      <td>+91 987654321</td>
+      <td>Dr.Ananth</td>
+      <td><img src=""></td>
+    </tr>
+    <tr class="f">
+      <td>Kiran Acharya</td>
+      <td><button>Rivisit</button></td>
+      <td>06:15PM</td>
+      <td>+91 987654321</td>
+      <td>Dr.Ananth</td>
+      <td><img src=""></td>
+    </tr>
+
+    </tbody>
+  </table>
+</div>
